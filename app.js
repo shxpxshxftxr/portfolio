@@ -11,5 +11,5 @@ app.get("*", (req, res) => {
 });
 
 http.listen(PORT, function () {
-  console.log("listening on *:here - origin set");
+  console.log(`listening on ${PORT} - origin set`);
 });
