@@ -57,9 +57,9 @@ var Navbar = function Navbar() {
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "navlinks",
     to: "/"
-  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "navlinks",
-    to: "/"
+    href: "https://docs.google.com/document/d/1EdC1jUJ1OX4eJe2h9zt3_sloOPeuMeUU83LhaYn8mLQ/edit?usp=sharing"
   }, "Resume")));
 };
 

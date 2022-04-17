@@ -10,7 +10,7 @@ const Navbar = () => {
 
         <Link className= "navlinks" to="/">Portfolio</Link>
 
-        <Link className= "navlinks" to="/">Resume</Link>
+        <a className= "navlinks" href="https://docs.google.com/document/d/1EdC1jUJ1OX4eJe2h9zt3_sloOPeuMeUU83LhaYn8mLQ/edit?usp=sharing">Resume</a>
 
       </div>
     </nav>
